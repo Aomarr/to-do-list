@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <title>Task Manager</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Task Manager</h1>
+      <form>
+        <label for="task-input">Enter the task number here:</label>
+        <input
+          type="number"
+          id="task-input"
+          class="task-index"
+          name="task-index"
+          placeholder="Enter the task index here"
+        />
+        <button class="sub-btn">Submit</button>
+      </form>
+      <p class="preview">The task is <span class="task-name"></span>.</p>
+      <p>You have <span class="count"></span> Tasks.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
